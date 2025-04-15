@@ -32,12 +32,12 @@ function Banner() {
       <div className="slider-container">
         <Slider {...settings}>
           <img
-            src="/images/bio-plant-two.PNG"
+            src="/Bulkagrochem-jaikumar/images/bio-plant-two.PNG"
             alt=""
             className="w-full object-fill"
           />
           <img
-            src="/images/banner-two.webp"
+            src="/Bulkagrochem-jaikumar/images/banner-two.webp"
             alt=""
             className="w-full object-fill"
           />

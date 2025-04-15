@@ -30,7 +30,7 @@ function Categories() {
           </div>
           <div className="basis-2/4 overflow-hidden w-[330px] h-[510px] ">
             <img
-              src="/images/corn-4896300_1920-2.jpg"
+              src="/Bulkagrochem-jaikumar/images/corn-4896300_1920-2.jpg"
               alt=""
               className="rounded-md  w-full h-full  object-cover"
             />

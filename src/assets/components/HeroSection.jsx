@@ -52,7 +52,7 @@ function HeroSection() {
         <div className="heroSection-product group">
           <div className="overflow-hidden">
             <img
-              src="https://bulkagrochem.ca/assets/images/products/17388214388uYA2SsI.webp"
+              src="https://bulkagrochem.ca/assets/images/products/17388218071GkUEEif.webp"
               alt=""
               className="heroSection-image"
             />

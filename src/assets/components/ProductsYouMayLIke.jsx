@@ -28,7 +28,7 @@ function ProductsYouMayLIke() {
             loop
           >
             <source
-              src="/vedios/fertilizing-seedlings.mp4"
+              src="/Bulkagrochem-jaikumar/vedios/fertilizing-seedlings.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -78,7 +78,7 @@ function ProductsYouMayLIke() {
           <div className="heroSection-product group">
             <div className="overflow-hidden">
               <img
-                src="https://bulkagrochem.ca/assets/images/products/17388214388uYA2SsI.webp"
+                src="https://bulkagrochem.ca/assets/images/products/17388218071GkUEEif.webp"
                 alt=""
                 className="heroSection-image"
               />
@@ -158,7 +158,7 @@ function ProductsYouMayLIke() {
           <div className="heroSection-product group">
             <div className="overflow-hidden">
               <img
-                src="https://bulkagrochem.ca/assets/images/products/17388214388uYA2SsI.webp"
+                src="https://bulkagrochem.ca/assets/images/products/17388218071GkUEEif.webp"
                 alt=""
                 className="heroSection-image"
               />
@@ -282,7 +282,7 @@ function ProductsYouMayLIke() {
           <div className="heroSection-product group">
             <div className="overflow-hidden">
               <img
-                src="https://bulkagrochem.ca/assets/images/products/17388214388uYA2SsI.webp"
+                src="https://bulkagrochem.ca/assets/images/products/17388218071GkUEEif.webp"
                 alt=""
                 className="heroSection-image"
               />
