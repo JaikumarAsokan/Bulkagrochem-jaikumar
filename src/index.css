@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-gray {
+  @apply text-gray-500 hover:text-black text-[13px] cursor-pointer;
+}
+
+.link-black {
+  @apply hover:text-[#78B132] cursor-pointer;
+}
+
+/* HeroSection */
+.heroSection-product {
+  @apply bg-[#c6e4a6] hover:bg-[#78b132] border flex flex-col justify-center items-center gap-2 p-3 cursor-pointer shadow-lg hover:shadow-[#c6e4a6] duration-300;
+}
+
+.heroSection-image {
+  @apply group-hover:scale-[1.15] transition-transform duration-300;
+}
+
+.heroSection-details {
+  @apply bg-[#78b132] group-hover:bg-[#c6e4a6] duration-300 w-full flex justify-between p-2 text-white group-hover:text-black;
+}
+
+.heroSection-cart {
+  @apply group-hover:bg-orange-400  bg-white group-hover:text-white text-orange-400 duration-300 flex justify-center items-center w-[50px] rounded cursor-pointer shadow-md hover:shadow-gray-500;
+}
+/* underline */
+.underline {
+  @apply w-20 h-1 bg-green-600 mb-5 mt-2;
+}
+/* LatestProducts */
+.latestProducts-product {
+  @apply cursor-pointer bg-white flex gap-2 p-5 bg-gradient-to-b from-white to-[#c6e4a6] 
+  hover:from-[#c6e4a6] hover:to-white
+            transition-all  duration-300 border;
+}
+.get-enquiry-btn {
+  @apply group-hover:bg-orange-400  bg-white group-hover:text-white text-orange-400 duration-300 flex justify-center items-center w-fit rounded cursor-pointer shadow-md hover:shadow-gray-500 px-4 py-2;
+}
+
+.view-all-products {
+  @apply bg-orange-400  hover:bg-white text-white hover:text-orange-400 duration-300 flex flex-row gap-2 justify-center items-center w-fit rounded cursor-pointer shadow-md hover:shadow-gray-500 px-4 py-2;
+}
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
